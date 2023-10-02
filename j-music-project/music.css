@@ -1,0 +1,194 @@
+body{
+    background-color: rgb(14, 16, 38);
+   
+}
+
+/* artist */
+.artist-img img{
+    height: 20rem;
+    width: 20rem;
+   
+   
+   
+}
+main{
+    display: inline-block;
+    width: 70%;
+}
+.artist-info{
+   
+display: flex;
+    background-color: rgb(17, 19, 50);
+ 
+}
+.artist-bio{
+   
+    text-align: left;
+    padding: 3rem;
+   
+}
+.artist-bio h1{
+    color: rgb(254, 252, 252);
+}
+.artist-bio p{
+    color: rgb(114, 117, 140);
+}
+/*playlist-songs*/
+.music-player{
+    
+    display: inline-block;
+    
+}
+.playlist-song{
+    background-color: rgb(21, 22, 38);
+    display:flex;
+    position: sticky;
+    scroll-behavior: smooth;
+    margin: 1rem;
+}
+.playlist-song-img img{
+    height: 2rem;
+    width: 2rem;
+    padding-left: 2rem;
+    padding-top: .2rem;
+}
+.playlist-song-name{
+color: rgb(254, 252, 252);
+padding-left: 2rem;
+padding-top: .2rem;
+font-size: 1.1rem;
+}
+.playlist-song-add{
+ padding-left: 5rem;
+ padding-top: .5rem;
+}
+.favourite-icon{
+    color: white;
+    padding-top: .5rem;
+    margin-left: 46rem;
+}
+/*footer banner*/
+.footer-banner{
+    background-color: rgb(30, 30, 30);
+    display: flex;
+ width: 90rem;
+ margin-left: 0px;
+
+}
+.footer-banner audio{
+    padding-left: 14rem;
+    background-color: transparent;
+    width: 200%;
+    padding-top: .8rem;
+  
+
+}
+.curr-song{
+    color: rgb(254, 252, 252);
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+  .curr-singer{
+    color: rgb(114, 117, 140);
+    
+    padding-top: 2rem;
+}
+.curr-song-img img{
+ height: 3rem;
+ padding-left: 8rem;
+}
+/* aside top*/
+.aside-section1 div img{
+    height: 5rem;
+    width: 5rem; 
+}
+.aside-section1 div h3{
+    color: rgb(254, 252, 252);
+    padding-left: 1rem;
+    font-size: 15px;
+}
+.aside-section1 div{
+    display: flex;
+    padding-top: 1rem;
+    
+}
+.aside-section1 h1{
+    color: rgb(254, 252, 252);
+    font-size: 25px;
+    
+}
+
+aside{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3%;
+
+}
+.aside-section2 h1{
+    color: rgb(254, 252, 252);
+    font-size: 25px;
+}
+.aside-section2{
+    margin-top: 40px;
+}
+/*header*/
+header {
+    display:flex;
+}
+.my-account img{
+     height: 90px;
+     width: 90px;
+margin-left: 10rem;
+     border-radius: 90%;
+    
+}
+.search input{
+    margin-top: 1rem;
+    margin-left: 40rem;
+    background-color:rgb(18 , 25  , 62);
+}
+.favourites h4{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    color: white;
+}
+.logo-icon{
+    margin-top: 1rem;
+}
+
+.notification {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.notification i{
+    color: white;
+}
+.search i{
+    margin-right:-10px ;
+
+
+}
+/*recent songs*/
+.recent-song-img img{
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+}
+.recent-song-name{
+    font-size: 1rem;
+    color: aliceblue;
+    padding-left: 5rem;
+   padding-top: .6rem;
+}
+.recent-song{
+   
+    display:flex;
+    position: sticky;
+    scroll-behavior: smooth;
+    
+}
+.recent-song i{
+    padding-left: 8rem;
+    color: aliceblue;
+  padding-top: 1.7rem;
+}
